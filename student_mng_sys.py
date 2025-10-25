@@ -6,6 +6,18 @@ from tkinter import ttk        # ttk gives access to advanced widgets like Treev
 import psycopg2                # Library used to connect Python with PostgreSQL database
 
 
+
+'''Execution Flow:
+Step	Code / Function	What Happens
+1️⃣	import statements	Load tkinter & psycopg2
+2️⃣	Database connection	Connect to PostgreSQL
+3️⃣	class Student:	Loaded in memory (not run yet)
+4️⃣	main = Tk()	Creates GUI window
+5️⃣	Student(main)	Runs __init__() → Builds full interface
+6️⃣	main.mainloop()	Keeps window open & waits for user
+🔁	Button click	Runs Add, Delete, Update, or Clear'''
+
+
 #Database connection Using psycopg2
 try:
     # Connecting to PostgreSQL database
