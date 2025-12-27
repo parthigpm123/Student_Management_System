@@ -1,0 +1,37 @@
+{
+  "sqltools.connections": [
+    {
+      "pgOptions": {
+        "ssl": {
+          "rejectUnauthorized": false
+        }
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "database-1.cpqc4y4y8h6g.ap-southeast-2.rds.amazonaws.com",
+      "port": 5432,
+      "sshOptions": {
+        "port": 22,
+        "host": "database-1.cpqc4y4y8h6g.ap-southeast-2.rds.amazonaws.com",
+        "username": "postgres",
+        "password": "Jesus1234567"
+      },
+      "driver": "PostgreSQL",
+      "name": "database",
+      "database": "postgres",
+      "username": "postgres",
+      "password": "Jesus1234567"
+    },
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "db2",
+      "database": "postgres",
+      "username": "postgres",
+      "password": "root"
+    }
+  ]
+}

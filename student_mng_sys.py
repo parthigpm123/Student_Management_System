@@ -22,10 +22,10 @@ Step	Code / Function	What Happens
 try:
     # Connecting to PostgreSQL database
     conn = psycopg2.connect(
-        host="localhost",
+        host="database-1.cpqc4y4y8h6g.ap-southeast-2.rds.amazonaws.com",
         database="postgres",
         user="postgres",
-        password="root",
+        password="Jesus1234567",
         port="5432"
     )
     print("Database connection established successfully.")
